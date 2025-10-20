@@ -17,5 +17,3 @@ export default function RevenuePage() {
     </div>
   )
 }
-
-[Response interrupted by a tool use result. Only one tool may be used at a time and should be placed at the end of the message.]
