@@ -6,7 +6,7 @@
 
 Production-ready Next.js boilerplate with App Router, TypeScript, Tailwind CSS, and shadcn/ui components.
 
-![Next.js Boilerplate Preview](/1020009.png)
+![Next.js Boilerplate Preview](/1020010.png)
 
 ## ✨ Features
 
