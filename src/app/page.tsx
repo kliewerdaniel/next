@@ -13,20 +13,32 @@ export default function Home() {
             <h1 className="font-bold text-xl">{SITE_CONFIG.name}</h1>
           </div>
           <nav className="flex items-center space-x-4">
-            <Link href="/about" className="text-muted-foreground hover:text-foreground">
+            <Link
+              href="/about"
+              prefetch={true}
+              className="text-muted-foreground hover:text-foreground"
+            >
               About
             </Link>
-            <Link href="/blog" className="text-muted-foreground hover:text-foreground">
+            <Link
+              href="/blog"
+              prefetch={false} // Don't prefetch for heavy dynamic content
+              className="text-muted-foreground hover:text-foreground"
+            >
               Blog
             </Link>
-            <Link href="/dashboard" className="text-muted-foreground hover:text-foreground">
+            <Link
+              href="/dashboard"
+              prefetch={false} // Protected route shouldn't be prefetched
+              className="text-muted-foreground hover:text-foreground"
+            >
               Dashboard
             </Link>
           </nav>
         </div>
       </header>
 
-      {/* Main Content */}
+      {/* Main Content - Static generation with ISR ready */}
       <main className="flex-1">
         {/* Hero Section */}
         <section className="container py-24 text-center">
