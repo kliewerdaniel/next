@@ -11,6 +11,11 @@ export default function RevenuePage() {
           <div className="text-2xl font-bold">1,247</div>
         </div>
       </div>
-      <p className="text-
+      <p className="text-sm text-muted-foreground">
+        This is loaded as a parallel route with independent state.
+      </p>
+    </div>
+  )
+}
 
 [Response interrupted by a tool use result. Only one tool may be used at a time and should be placed at the end of the message.]
