@@ -6,7 +6,7 @@
 
 Production-ready Next.js boilerplate with App Router, TypeScript, Tailwind CSS, and shadcn/ui components.
 
-![Next.js Boilerplate Preview](https://via.placeholder.com/800x400/3b82f6/ffffff?text=Next.js+Boilerplate+Preview)
+![Next.js Boilerplate Preview](1020008.png)
 
 ## ✨ Features
 
@@ -34,8 +34,8 @@ Production-ready Next.js boilerplate with App Router, TypeScript, Tailwind CSS, 
 
 ```bash
 # Clone repository
-git clone https://github.com/your-org/nextjs-boilerplate.git
-cd nextjs-boilerplate
+git clone https://github.com/kliewerdaniel/next.git
+cd next
 
 # Install dependencies
 npm install
