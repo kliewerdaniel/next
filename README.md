@@ -1,6 +1,6 @@
 # Next.js Boilerplate
 
-[![CI/CD Pipeline](https://github.com/your-org/nextjs-boilerplate/actions/workflows/ci.yml/badge.svg)](https://github.com/your-org/nextjs-boilerplate/actions/workflows/ci.yml)
+[![CI/CD Pipeline](https://github.com/kliewerdaniel/next/actions/workflows/ci.yml/badge.svg)](https://github.com/your-org/nextjs-boilerplate/actions/workflows/ci.yml)
 [![codecov](https://codecov.io/gh/your-org/nextjs-boilerplate/graph/badge.svg)](https://codecov.io/gh/your-org/nextjs-boilerplate)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
