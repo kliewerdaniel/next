@@ -1,0 +1,34 @@
+{
+  "framework": "nextjs",
+  "buildCommand": "npm run build",
+  "outputDirectory": ".next",
+  "installCommand": "npm ci",
+  "devCommand": "npm run dev",
+
+  "functions": {
+    "src/app/api/**/*.ts": {
+      "maxDuration": 10
+    }
+  },
+
+  "headers": [
+    {
+      "source": "/api/(.*)",
+      "headers": [
+        {
+          "key": "X-RateLimit-Limit",
+          "value": "100"
+        }
+      ]
+    }
+  ],
+
+  "environments": {
+    "production": {
+      "buildCommand": "npm run build"
+    },
+    "preview": {
+      "buildCommand": "npm run build"
+    }
+  }
+}
